@@ -1,20 +1,29 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
 body {
 	background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
 	font-family: sans-serif;
-	padding: 20px;
+	display: flex;
+	justify-content: center;
 }
-section h1 {
+
+h1 {
 	font-size: 40px;
-	margin-top: 0;
-	margin-bottom: 15px;
+	margin-bottom: 1rem;
 }
 
 h2 {
-	font-size: 30px;
+	font-size: 1.875rem;
+	margin: 1.25rem 0;
 }
 
 .established {
 	font-style: italic;
+	margin-bottom: 1rem;
 }
 
 h1,
@@ -25,11 +34,11 @@ p {
 
 .menu {
 	width: 80%;
-	background-color: burlywood;
-	margin-left: auto;
-	margin-right: auto;
-	padding: 20px;
+	min-width: 300px;
 	max-width: 500px;
+	background-color: burlywood;
+	margin: 4rem auto;
+	padding: 1.25rem;
 }
 
 img {
@@ -39,13 +48,13 @@ img {
 }
 
 hr {
-	height: 2px;
+	height: 0.25rem;
 	background-color: brown;
 	border-color: brown;
 }
 
 .bottom-line {
-	margin-top: 25px;
+	margin-top: 1.5625rem;
 }
 
 h1,
@@ -53,11 +62,14 @@ h2 {
 	font-family: Impact, serif;
 }
 
+.item {
+	display: flex;
+}
+
 .item p {
 	display: inline-block;
-	margin-top: 5px;
-	margin-bottom: 5px;
-	font-size: 18px;
+	margin: 0.25rem 0;
+	font-size: 1.125rem;
 }
 
 .flavor,
@@ -74,11 +86,15 @@ h2 {
 /* FOOTER */
 
 footer {
-	font-size: 14px;
+	font-size: 0.875rem;
+}
+
+footer p {
+	margin: 0.75rem 0;
 }
 
 .address {
-	margin-bottom: 5px;
+	margin-bottom: 0.25rem;
 }
 
 a {
