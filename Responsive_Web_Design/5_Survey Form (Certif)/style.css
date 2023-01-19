@@ -1,7 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:wght@100&display=swap");
 
 * {
-	outline: green solid 1px; /* Debugging */
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
 }
 
 :root {
