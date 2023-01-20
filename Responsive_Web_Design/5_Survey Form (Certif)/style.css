@@ -13,6 +13,12 @@
 	--color-green: #37af65;
 }
 
+body {
+	display: flex;
+	justify-content: center;
+	place-items: center;
+}
+
 body::before {
 	content: "";
 	position: fixed;
@@ -34,7 +40,7 @@ body::before {
 }
 
 body::after {
-	font-family: Poppins, sans-serif;
+	font-family: Roboto, Poppins, sans-serif;
 	font-size: 1rem;
 	font-weight: 400;
 	color: var(--color-white);
@@ -88,6 +94,11 @@ textarea {
 	border: 1px solid #0a0a23;
 	border-radius: 3px;
 	color: #ffffff;
+}
+
+textarea {
+	max-width: 520px;
+	min-height: 4rem;
 }
 
 input[type="submit"] {
